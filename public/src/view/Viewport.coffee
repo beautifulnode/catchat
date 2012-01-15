@@ -14,7 +14,7 @@ Ext.define "CatChat2.view.Viewport",
         title: "Messages"
         xtype: "toolbar"
         items: [
-          dock: 'right'
+          docked: 'right'
           ui: 'action'
           xtype: 'button'
           text: "New"

@@ -20,7 +20,7 @@
               xtype: "toolbar",
               items: [
                 {
-                  dock: 'right',
+                  docked: 'right',
                   ui: 'action',
                   xtype: 'button',
                   text: "New",

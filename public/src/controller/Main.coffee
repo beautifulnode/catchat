@@ -43,6 +43,6 @@ Ext.define 'CatChat2.controller.Main',
       msg = new Message { user, body, createdAt: new Date() }
       messages.add msg
       messages.sort()
-      console.log msg
+      #console.log msg
     @getViewport()
 
